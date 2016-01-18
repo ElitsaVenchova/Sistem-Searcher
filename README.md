@@ -33,7 +33,7 @@ Search happens after pressing a "Start" button below a search form. "Cancel" but
     * Set max search depth  (0- only in current dir)
     * "All dirs" (default)
 
-Search results
+Search result set
 --------------
 Result set is show like a list of files with mime type. When one on result is selected you can see below result:
 
@@ -48,7 +48,7 @@ Result set is show like a list of files with mime type. When one on result is se
     * "Copy" button - copy file
     * "Cut" button - cut file
 
-File Tree
+System Tree
 --------------
 
 File tree show show all subdirs and their file with some root. The dirs can be collapse and expand. For refresh a system tree must be pressed refresh icon in right of root field.

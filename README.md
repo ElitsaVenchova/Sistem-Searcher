@@ -1,23 +1,23 @@
 System Searcher
 ==============
-Description:
+Description
 --------------
 <b>System Searcher</b> is a [Go](https://golang.org/) based desktop application, through which you can search in your computer's filesystem for same text into the files's contents. You can work directly with the system tree(copy, cut, delete and ect. files/dirs). The applicatiob offer directy view and edit files.
 
-Installation:
+Installation
 --------------
 
 ```
 go get https://github.com/ElitsaVenchova/Sistem-Searcher
 ```
 
-Usage:
+Usage
 --------------
 
 [See GoDoc](https://godoc.org/github.com/ElitsaVenchova/Sistem-Searcher) for
 documentation and examples.
 
-Search options:
+Search options
 --------------
 Search happens after pressing a "Start" button below a search form. "Cancel" button clean all search options(set them with their default values). The different option for search in filesystem are:
 
@@ -33,7 +33,7 @@ Search happens after pressing a "Start" button below a search form. "Cancel" but
     * Set max search depth  (0- only in current dir)
     * "All dirs" (default)
 
-Search results:
+Search results
 --------------
 Result set is show like a list of files with mime type. When one on result is selected you can see below result:
 
@@ -48,7 +48,7 @@ Result set is show like a list of files with mime type. When one on result is se
     * "Copy" button - copy file
     * "Cut" button - cut file
 
-File Tree:
+File Tree
 --------------
 
 File tree show show all subdirs and their file with some root. The dirs can be collapse and expand. For refresh a system tree must be pressed refresh icon in right of root field.
@@ -76,10 +76,10 @@ Option below the showed file:
 * "Original file" button - show original file content without save any changes
 * "Cancel" button - cancel the view/edit window
 
-License:
+License
 --------------
 This is free software, licensed under [The MIT License (MIT)](https://github.com/ElitsaVenchova/Sistem-Searcher/blob/master/LICENSE)
 
-Contributing:
+Contributing
 --------------
 Contributions welcome! Please fork the repository and open a pull request with your changes.

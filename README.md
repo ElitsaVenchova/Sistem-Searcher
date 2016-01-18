@@ -2,7 +2,7 @@ System Searcher
 ==============
 Description
 --------------
-<b>System Searcher</b> is a [Go](https://golang.org/) based desktop application, through which you can search in your computer's filesystem for same text into the files's contents. You can work directly with the system tree(copy, cut, delete and ect. files/dirs). The applicatiob offer directy view and edit files.
+<b>System Searcher</b> is a [Go](https://golang.org/) based desktop application, through which you can search in your computer's filesystem for same text into the files's contents. You can work directly with the system tree(copy, cut, delete and ect. files/dirs). The applicatiob offer directly view and edit files.
 
 Installation
 --------------
@@ -35,15 +35,15 @@ Search happens after pressing a "Start" button below a search form. "Cancel" but
 
 Search result set
 --------------
-The result set is show like a list of files with mime type. When one on result is selected you can see below result:
+The result set is show like a list of files with mime type. When one of results is selected you can see below result:
 
 * statistic info:
     * How many time is found seached text/matched regular expression
-    * First 5 lines from file with bold matched text
-* Option for work with file:
+    * First 5 result - foreach show line with bold matched text
+* Options for work with file:
     * "View" button - open File view/edit window
     * "Open" button - open file with default program
-    * "Rename" button - remane file/dir with entered name into dialog box and pressed "Ok" button. "Cancel" button don't change selected file/dir name
+    * "Rename" button - remane file/dir with entered name into dialog box and pressed "Ok" button. "Cancel" button don't change selected file name
     * "Delete" button - delete file from filesystem after confirmation in dialog box
     * "Copy" button - copy file
     * "Cut" button - cut file
@@ -51,7 +51,7 @@ The result set is show like a list of files with mime type. When one on result i
 System Tree
 --------------
 
-File tree show show all subdirs and their file with some root. The dirs can be collapse and expand. For refresh a system tree must be pressed refresh icon in right of root field.
+System tree show show all subdirs and their files with some root. The dirs can be collapse and expand. For change the root and refresh a system tree must be pressed refresh icon in right of root field.
 
 * Root field
     * Empty - show full system tree(default)

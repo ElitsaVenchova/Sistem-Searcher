@@ -2,7 +2,7 @@ System Searcher
 ==============
 Description
 --------------
-<b>System Searcher</b> is a [Go](https://golang.org/) based desktop application, through which you can search in your computer's filesystem for same text into the files's contents. You can work directly with the system tree(copy, cut, delete and ect. files/dirs). The applicatiob offer directly view and edit files.
+<b>System Searcher</b> is a [Go](https://golang.org/) based desktop application, through which you can search in your computer's filesystem for same text into the files's contents. You can work directly with the system tree(copy, cut, delete and ect. files/dirs). The application offer directly view and edit files.
 
 Installation
 --------------

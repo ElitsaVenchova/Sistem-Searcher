@@ -35,7 +35,7 @@ Search happens after pressing a "Start" button below a search form. "Cancel" but
 
 Search result set
 --------------
-Result set is show like a list of files with mime type. When one on result is selected you can see below result:
+The result set is show like a list of files with mime type. When one on result is selected you can see below result:
 
 * statistic info:
     * How many time is found seached text/matched regular expression
@@ -64,7 +64,7 @@ File tree show show all subdirs and their file with some root. The dirs can be c
     * Delete - delete selected dir/file
     * Select as root dir - change tree's root with seleted dir/file
     * Rename - remane file/dir with entered name into dialog box and pressed "Ok" button. "Cancel" button don't change selected file/dir name
-    * Search in dir - set chearch root field with this path
+    * Search in dir - set shearch root field with this path
     * Copy file path - copy the absolute file path
 
 File view/edit window

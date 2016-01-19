@@ -2,7 +2,7 @@ System Searcher
 ==============
 Description
 --------------
-<b>System Searcher</b> is a [Go](https://golang.org/) based desktop application, through which you can search in your computer's filesystem for same text into the files's contents. You can work directly with the system tree(copy, cut, delete and ect. files/dirs). The application offer directly view and edit files.
+<b>System Searcher</b> is a [Go](https://golang.org/) based desktop application, through which you can search in your computer's filesystem for same text into the files's contents. Apllication GUI is made with [go-gtk](http://mattn.github.io/go-gtk/). You can work directly with the system tree(copy, cut, delete and ect. files/dirs). The application offer directly view and edit files.
 
 Installation
 --------------
@@ -19,39 +19,41 @@ documentation and examples.
 
 Search options
 --------------
-Search happens after pressing a "Start" button below a search form. "Cancel" button clean all search options(set them with their default values). The different option for search in filesystem are:
+Search happens after pressing a "Start" button below a search form. "Cancel" button clean all search options(set them with their default values) without clean current search result. The different option for search in filesystem are:
 
 * Search text field (mandatory)
 * Type of search text field
     * Text (default)
     * Regular Expression
 * Set search's root field
-    * Empty - search in full filesystem  (default)
+    * Empty - full search into filesystem  (default)
     * Set concrete path (inlude dir or file with mime type)
 
 * Set search depth
     * Set max search depth  (0- only in current dir)
-    * "All dirs" (default)
+    * "Full search" (default)
 
 Search result set
 --------------
+
 The result set is show like a list of files with mime type. When one of results is selected you can see below result:
 
 * statistic info:
+    * Ablosute file path
     * How many time is found seached text/matched regular expression
     * First 5 result - foreach show line with bold matched text
 * Options for work with file:
     * "View" button - open File view/edit window
     * "Open" button - open file with default program
     * "Rename" button - remane file/dir with entered name into dialog box and pressed "Ok" button. "Cancel" button don't change selected file name
-    * "Delete" button - delete file from filesystem after confirmation in dialog box
-    * "Copy" button - copy file
-    * "Cut" button - cut file
+    * "Delete" button - delete selected file from filesystem after confirmation in dialog box
+    * "Copy" button - copy selected file file
+    * "Cut" button - cut selected file
 
 System Tree
 --------------
 
-System tree show show all subdirs and their files with some root. The dirs can be collapse and expand. For change the root and refresh a system tree must be pressed refresh icon in right of root field.
+Systemtree show all subdirs and their files with some root. The dirs can be collapse and expand. For change the root and refresh a system tree must be pressed refresh icon in right of root field.
 
 * Root field
     * Empty - show full system tree(default)

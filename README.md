@@ -8,13 +8,13 @@ Installation
 --------------
 
 ```
-go get https://github.com/ElitsaVenchova/Sistem-Searcher
+go get https://github.com/ElitsaVenchova/System-Searcher
 ```
 
 Usage
 --------------
 
-[See GoDoc](https://godoc.org/github.com/ElitsaVenchova/Sistem-Searcher) for
+[See GoDoc](https://godoc.org/github.com/ElitsaVenchova/System-Searcher) for
 documentation and examples.
 
 Search options
